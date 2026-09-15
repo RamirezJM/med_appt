@@ -28,3 +28,26 @@ Give Feedback: Submit reviews for completed consultations
 Rating System: 5-star rating interface for doctor evaluation
 Detailed Reviews: Write detailed feedback about consultation experience
 Review Categories: Rate doctors on diagnosis, communication, professionalism, and time management
+
+Installation & Setup
+Prerequisites
+Node.js 16+ and npm installed
+Installation Steps
+Install Dependencies
+
+npm install
+Start Development Server
+
+npm run dev
+The application will be available at http://localhost:5173
+
+Build for Production
+
+npm run build
+Preview Production Build
+
+npm run preview
+Available Scripts
+npm run dev - Start development server with HMR
+npm run build - Create production-optimized build
+npm run preview - Preview production build locally
